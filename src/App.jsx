@@ -1,4 +1,4 @@
-import {BrowsrRouter,Routes,Route} from "react-router-dom"
+import {BrowserRouter,Routes,Route} from "react-router-dom"
 import AboutPage from "./Pages/About";
 import BlogPage from "./Pages/Blog";
 import ContactPage from "./Pages/Contact";
@@ -10,7 +10,7 @@ const App = ()=>{
 
   return(
 <div>
-  <BrowsrRouter>
+  <BrowserRouter>
     <Routes>
        <Route path="/" element={<HomePage/>}/>
        <Route path="/about" element={<AboutPage/>}/>
@@ -21,7 +21,7 @@ const App = ()=>{
 
     </Routes>
   
-  </BrowsrRouter>
+  </BrowserRouter>
   
 
 </div>
